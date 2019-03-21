@@ -52,4 +52,10 @@ class Owner
   def feed_fish
     self.pets[:fishes].map {|fish| fish.mood = ("happy")}
   end
+  
+  def sell_pets
+    self.pets.each do |species, species_array|
+      species_array.map do |pet|
+        pet.mood = "nervous"
+      end
 end

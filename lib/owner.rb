@@ -58,4 +58,5 @@ class Owner
       species_array.map do |pet|
         pet.mood = "nervous"
       end
+    end
 end

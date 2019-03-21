@@ -21,5 +21,8 @@ class Owner
     self.all.clear
   end
   
+  def say_species
+    puts "I am #{@species}"
+  end  
   
 end
